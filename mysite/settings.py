@@ -127,7 +127,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 
     # `allauth` specific authentication methods, such as login by e-mail
-  #  'allauth.account.auth_backends.AuthenticationBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
   
 ]
 
@@ -160,7 +160,7 @@ STATICFILES_FINDERS = (
  )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_URL = '/.well-known/'
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 SITE_ID = 2
