@@ -51,7 +51,7 @@ INSTALLED_APPS = [
    'allauth.socialaccount',
  'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.github',
-
+'allauth.socialaccount.providers.windowslive',
   
    # 'progress.apps.WebsiteIdeasConfig',
 ]
@@ -193,7 +193,7 @@ SOCIALACCOUNT_PROVIDERS = {
     "tenant": "common",
       "SCOPE": [
         "User:Read"
-      ]
+      ],
 
     },
 
