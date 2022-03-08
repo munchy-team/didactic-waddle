@@ -189,9 +189,9 @@ SOCIALACCOUNT_PROVIDERS = {
      ]
   
       },
-    'microsoft': {
+    "microsoft": {
         'tenant': 'common',
-      'scope': 'user:read',
+
     },
 
         }
