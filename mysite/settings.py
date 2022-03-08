@@ -51,7 +51,7 @@ INSTALLED_APPS = [
    'allauth.socialaccount',
  'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.github',
-'allauth.socialaccount.providers.windowslive',
+'allauth.socialaccount.providers.microsoft',
   
    # 'progress.apps.WebsiteIdeasConfig',
 ]
