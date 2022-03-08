@@ -188,7 +188,10 @@ SOCIALACCOUNT_PROVIDERS = {
         "user:email"
      ]
   
-      }
+      },
+    'microsoft': {
+        'tenant': 'common',
+    }
         }
 
 
